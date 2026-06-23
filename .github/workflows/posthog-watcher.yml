@@ -26,4 +26,5 @@ jobs:
           openai-api-key: ${{ secrets.OPENAI_API_KEY }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
           issue-number: ${{ github.event.issue.number || inputs['issue-number'] }}
+          model: openai/gpt-5.5:medium
           allow-fix: 'true'
