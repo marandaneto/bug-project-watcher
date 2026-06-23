@@ -2,6 +2,7 @@
 
 | Repo | Item | Conclusion | Labels | PR | Closed | Updated |
 | --- | --- | --- | --- | --- | --- | --- |
+| marandaneto/bug-project-watcher | [issue 22](https://github.com/marandaneto/bug-project-watcher/issues/22) | Valid bug: email validation accepts domains without a suffix. | bug, good-first-issue, posthog-watcher:fix-ready | https://github.com/marandaneto/bug-project-watcher/pull/24 | no | 2026-06-23T17:33:02.252Z |
 | marandaneto/bug-project-watcher | [issue 19](https://github.com/marandaneto/bug-project-watcher/issues/19) | Valid bug: cart total ignores item quantities | bug, good-first-issue, posthog-watcher:fix-ready | https://github.com/marandaneto/bug-project-watcher/pull/23 | no | 2026-06-23T17:31:07.823Z |
 | marandaneto/bug-project-watcher | [issue 11](https://github.com/marandaneto/bug-project-watcher/issues/11) | Valid bug report; email validation is too permissive. | bug, good-first-issue, posthog-watcher:fix-ready | https://github.com/marandaneto/bug-project-watcher/pull/15 | no | 2026-06-23T15:50:21.463Z |
 | marandaneto/bug-project-watcher | [issue 12](https://github.com/marandaneto/bug-project-watcher/issues/12) | Confirmed bug: the discount logic subtracts the percent value as a flat amount. | bug, posthog-watcher:fix-ready | https://github.com/marandaneto/bug-project-watcher/pull/17 | no | 2026-06-23T15:40:57.032Z |
