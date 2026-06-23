@@ -1,0 +1,17 @@
+{
+  "marandaneto/bug-project-watcher/issue/7": {
+    "key": "marandaneto/bug-project-watcher/issue/7",
+    "repo": "marandaneto/bug-project-watcher",
+    "item": "issue 7",
+    "url": "https://github.com/marandaneto/bug-project-watcher/issues/7",
+    "conclusion": "Valid bug report that appears to duplicate issue #1",
+    "labels": [
+      "bug",
+      "duplicate",
+      "posthog-watcher:fix-ready",
+      "posthog-watcher:close-proposed"
+    ],
+    "closed": false,
+    "updatedAt": "2026-06-23T15:30:20.049Z"
+  }
+}
