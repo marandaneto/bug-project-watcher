@@ -7,8 +7,7 @@ function calculateDiscountedPrice(price, discountPercent) {
     return roundToCents(price);
   }
 
-  // BUG: treats a percentage discount as a flat currency amount.
-  return roundToCents(price - discountPercent);
+  return roundToCents(price - price * discountPercent / 100);
 }
 
 function totalCart(items) {
