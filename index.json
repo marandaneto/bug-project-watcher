@@ -1,4 +1,18 @@
 {
+  "marandaneto/bug-project-watcher/issue/10": {
+    "key": "marandaneto/bug-project-watcher/issue/10",
+    "repo": "marandaneto/bug-project-watcher",
+    "item": "issue 10",
+    "url": "https://github.com/marandaneto/bug-project-watcher/issues/10",
+    "conclusion": "Valid bug: shipping calculation floors the estimate and drops cents.",
+    "labels": [
+      "bug",
+      "posthog-watcher:fix-ready"
+    ],
+    "prUrl": "https://github.com/marandaneto/bug-project-watcher/pull/14",
+    "closed": false,
+    "updatedAt": "2026-06-23T15:40:25.304Z"
+  },
   "marandaneto/bug-project-watcher/issue/9": {
     "key": "marandaneto/bug-project-watcher/issue/9",
     "repo": "marandaneto/bug-project-watcher",
