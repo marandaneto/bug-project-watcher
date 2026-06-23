@@ -17,8 +17,7 @@ function totalCart(items) {
 }
 
 function normalizeUsername(username) {
-  // BUG: replaces only the first space and does not collapse repeated whitespace.
-  return username.trim().toLowerCase().replace(' ', '-');
+  return username.trim().toLowerCase().replace(/\s+/g, '-');
 }
 
 function estimateShipping(weightKg, expedited = false) {
