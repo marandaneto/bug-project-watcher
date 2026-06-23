@@ -67,6 +67,7 @@ jobs:
           model: openai/gpt-5.5:medium
           allow-fix: 'true'
           allow-close: 'true'
+          allow-security-ai: 'true'
           dry-run: 'false'
           labels: bug,documentation,enhancement,question,needs-info,good-first-issue,duplicate
           managed-label-prefix: 'posthog-watcher:'
@@ -77,6 +78,9 @@ jobs:
           max-repair-attempts: '3'
           max-related-items: '10'
           validation-command: node -e "require('./src/business'); require('./src/app'); console.log('modules load')"
+          max-pi-calls: '40'
+          pi-timeout-ms: '600000'
+          approve-project-resources: 'true'
           commit-sha: ${{ inputs['commit-sha'] || github.sha }}
           state-enabled: 'true'
           state-branch: posthog-watcher-state
@@ -97,6 +101,7 @@ jobs:
           model: openai/gpt-5.5:medium
           allow-fix: 'true'
           allow-close: 'true'
+          allow-security-ai: 'true'
           dry-run: 'false'
           labels: bug,documentation,enhancement,question,needs-info,good-first-issue,duplicate
           managed-label-prefix: 'posthog-watcher:'
@@ -108,6 +113,10 @@ jobs:
           max-related-items: '10'
           validation-command: node -e "require('./src/business'); require('./src/app'); console.log('modules load')"
           max-sweep-items: ${{ inputs['max-sweep-items'] || '10' }}
+          max-sweep-fix-items: ${{ inputs['max-sweep-items'] || '10' }}
           sweep-query: ${{ inputs['sweep-query'] || 'is:issue is:open archived:false' }}
+          max-pi-calls: '40'
+          pi-timeout-ms: '600000'
+          approve-project-resources: 'true'
           state-enabled: 'true'
           state-branch: posthog-watcher-state
