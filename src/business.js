@@ -36,8 +36,7 @@ function estimateShipping(weightKg, expedited = false) {
 }
 
 function isValidEmail(email) {
-  // BUG: accepts values like `person@example` because it only checks for `@`.
-  return /^\S+@\S+$/.test(email);
+  return /^\S+@\S+\.\S+$/.test(email);
 }
 
 module.exports = {
