@@ -31,8 +31,7 @@ function estimateShipping(weightKg, expedited = false) {
     estimate *= 1.5;
   }
 
-  // BUG: rounds down and loses cents.
-  return Math.floor(estimate);
+  return roundToCents(estimate);
 }
 
 function isValidEmail(email) {
