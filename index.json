@@ -1,4 +1,18 @@
 {
+  "marandaneto/bug-project-watcher/issue/12": {
+    "key": "marandaneto/bug-project-watcher/issue/12",
+    "repo": "marandaneto/bug-project-watcher",
+    "item": "issue 12",
+    "url": "https://github.com/marandaneto/bug-project-watcher/issues/12",
+    "conclusion": "Confirmed bug: the discount logic subtracts the percent value as a flat amount.",
+    "labels": [
+      "bug",
+      "posthog-watcher:fix-ready"
+    ],
+    "prUrl": "https://github.com/marandaneto/bug-project-watcher/pull/17",
+    "closed": false,
+    "updatedAt": "2026-06-23T15:40:57.032Z"
+  },
   "marandaneto/bug-project-watcher/issue/8": {
     "key": "marandaneto/bug-project-watcher/issue/8",
     "repo": "marandaneto/bug-project-watcher",
