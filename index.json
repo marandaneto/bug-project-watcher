@@ -1,4 +1,19 @@
 {
+  "marandaneto/bug-project-watcher/issue/22": {
+    "key": "marandaneto/bug-project-watcher/issue/22",
+    "repo": "marandaneto/bug-project-watcher",
+    "item": "issue 22",
+    "url": "https://github.com/marandaneto/bug-project-watcher/issues/22",
+    "conclusion": "Valid bug: email validation accepts domains without a suffix.",
+    "labels": [
+      "bug",
+      "good-first-issue",
+      "posthog-watcher:fix-ready"
+    ],
+    "prUrl": "https://github.com/marandaneto/bug-project-watcher/pull/24",
+    "closed": false,
+    "updatedAt": "2026-06-23T17:33:02.252Z"
+  },
   "marandaneto/bug-project-watcher/issue/19": {
     "key": "marandaneto/bug-project-watcher/issue/19",
     "repo": "marandaneto/bug-project-watcher",
