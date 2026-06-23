@@ -1,4 +1,19 @@
 {
+  "marandaneto/bug-project-watcher/issue/19": {
+    "key": "marandaneto/bug-project-watcher/issue/19",
+    "repo": "marandaneto/bug-project-watcher",
+    "item": "issue 19",
+    "url": "https://github.com/marandaneto/bug-project-watcher/issues/19",
+    "conclusion": "Valid bug: cart total ignores item quantities",
+    "labels": [
+      "bug",
+      "good-first-issue",
+      "posthog-watcher:fix-ready"
+    ],
+    "prUrl": "https://github.com/marandaneto/bug-project-watcher/pull/23",
+    "closed": false,
+    "updatedAt": "2026-06-23T17:31:07.823Z"
+  },
   "marandaneto/bug-project-watcher/issue/11": {
     "key": "marandaneto/bug-project-watcher/issue/11",
     "repo": "marandaneto/bug-project-watcher",
