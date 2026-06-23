@@ -76,6 +76,7 @@ jobs:
           max-diff-lines: '500'
           max-repair-attempts: '3'
           max-related-items: '10'
+          validation-command: node -e "require('./src/business'); require('./src/app'); console.log('modules load')"
           commit-sha: ${{ inputs['commit-sha'] || github.sha }}
           state-enabled: 'true'
           state-branch: posthog-watcher-state
@@ -105,6 +106,7 @@ jobs:
           max-diff-lines: '500'
           max-repair-attempts: '3'
           max-related-items: '10'
+          validation-command: node -e "require('./src/business'); require('./src/app'); console.log('modules load')"
           max-sweep-items: ${{ inputs['max-sweep-items'] || '10' }}
           sweep-query: ${{ inputs['sweep-query'] || 'is:issue is:open archived:false' }}
           state-enabled: 'true'
