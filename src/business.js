@@ -7,7 +7,7 @@ function calculateDiscountedPrice(price, discountPercent) {
     return roundToCents(price);
   }
 
-  return roundToCents(price * (1 - discountPercent / 100));
+  return roundToCents(price - price * (discountPercent / 100));
 }
 
 function totalCart(items) {
