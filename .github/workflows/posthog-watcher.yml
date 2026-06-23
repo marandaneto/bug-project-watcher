@@ -41,7 +41,7 @@ on:
     - cron: '17 8 * * 1'
 
 concurrency:
-  group: posthog-watcher-${{ github.repository }}
+  group: posthog-watcher-${{ github.repository }}-issue-${{ github.event.issue.number }}
   cancel-in-progress: false
 
 permissions:
