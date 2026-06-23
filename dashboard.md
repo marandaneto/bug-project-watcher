@@ -4,4 +4,4 @@ Latest touched item:
 
 | Repo | Item | Conclusion | Labels | PR | Closed | Updated |
 | --- | --- | --- | --- | --- | --- | --- |
-| marandaneto/bug-project-watcher | [issue 5](https://github.com/marandaneto/bug-project-watcher/issues/5) | Valid bug: percentage discount is treated as a flat subtraction | bug, good-first-issue, posthog-watcher:fix-ready | https://github.com/marandaneto/bug-project-watcher/pull/6 | no | 2026-06-23T13:53:55.366Z |
+| marandaneto/bug-project-watcher | [issue 7](https://github.com/marandaneto/bug-project-watcher/issues/7) | Valid bug report, but it appears to duplicate existing issue #1 | bug, duplicate, posthog-watcher:fix-ready, posthog-watcher:close-proposed |  | no | 2026-06-23T14:00:09.494Z |
