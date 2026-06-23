@@ -2,6 +2,7 @@
 
 | Repo | Item | Conclusion | Labels | PR | Closed | Updated |
 | --- | --- | --- | --- | --- | --- | --- |
+| marandaneto/bug-project-watcher | [issue 28](https://github.com/marandaneto/bug-project-watcher/issues/28) | Confirmed bug: shipping estimates are floored, dropping cents. | bug, good-first-issue, posthog-watcher:fix-ready | https://github.com/marandaneto/bug-project-watcher/pull/33 | no | 2026-06-23T18:13:48.215Z |
 | marandaneto/bug-project-watcher | [issue 26](https://github.com/marandaneto/bug-project-watcher/issues/26) | Valid bug: cart totals ignore quantity | bug, good-first-issue, posthog-watcher:fix-ready | https://github.com/marandaneto/bug-project-watcher/pull/32 | no | 2026-06-23T18:13:44.086Z |
 | marandaneto/bug-project-watcher | [issue 27](https://github.com/marandaneto/bug-project-watcher/issues/27) | Confirmed bug in username normalization | bug, good-first-issue, posthog-watcher:fix-ready | https://github.com/marandaneto/bug-project-watcher/pull/31 | no | 2026-06-23T18:13:36.426Z |
 | marandaneto/bug-project-watcher | [issue 25](https://github.com/marandaneto/bug-project-watcher/issues/25) | Valid bug: discount percentage is treated as a flat amount. | bug, posthog-watcher:fix-ready | https://github.com/marandaneto/bug-project-watcher/pull/30 | no | 2026-06-23T18:13:31.032Z |
