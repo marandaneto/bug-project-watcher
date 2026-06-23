@@ -1,4 +1,17 @@
 {
+  "marandaneto/bug-project-watcher/issue/1": {
+    "key": "marandaneto/bug-project-watcher/issue/1",
+    "repo": "marandaneto/bug-project-watcher",
+    "item": "issue 1",
+    "url": "https://github.com/marandaneto/bug-project-watcher/issues/1",
+    "conclusion": "Confirmed bug: percentage discounts are applied as a flat subtraction.",
+    "labels": [
+      "bug",
+      "posthog-watcher:fix-ready"
+    ],
+    "closed": false,
+    "updatedAt": "2026-06-23T15:32:29.692Z"
+  },
   "marandaneto/bug-project-watcher/issue/7": {
     "key": "marandaneto/bug-project-watcher/issue/7",
     "repo": "marandaneto/bug-project-watcher",
