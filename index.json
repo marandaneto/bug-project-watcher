@@ -1,4 +1,19 @@
 {
+  "marandaneto/bug-project-watcher/issue/27": {
+    "key": "marandaneto/bug-project-watcher/issue/27",
+    "repo": "marandaneto/bug-project-watcher",
+    "item": "issue 27",
+    "url": "https://github.com/marandaneto/bug-project-watcher/issues/27",
+    "conclusion": "Confirmed bug in username normalization",
+    "labels": [
+      "bug",
+      "good-first-issue",
+      "posthog-watcher:fix-ready"
+    ],
+    "prUrl": "https://github.com/marandaneto/bug-project-watcher/pull/31",
+    "closed": false,
+    "updatedAt": "2026-06-23T18:13:36.426Z"
+  },
   "marandaneto/bug-project-watcher/issue/25": {
     "key": "marandaneto/bug-project-watcher/issue/25",
     "repo": "marandaneto/bug-project-watcher",
