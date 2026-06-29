@@ -1,4 +1,19 @@
 {
+  "marandaneto/bug-project-watcher/issue/29": {
+    "key": "marandaneto/bug-project-watcher/issue/29",
+    "repo": "marandaneto/bug-project-watcher",
+    "item": "issue 29",
+    "url": "https://github.com/marandaneto/bug-project-watcher/issues/29",
+    "conclusion": "Valid, well-scoped bug: email validation currently accepts addresses without a domain suffix.",
+    "labels": [
+      "bug",
+      "good-first-issue",
+      "posthog-watcher:fix-ready"
+    ],
+    "prUrl": "https://github.com/marandaneto/bug-project-watcher/pull/34",
+    "closed": false,
+    "updatedAt": "2026-06-29T10:03:18.820Z"
+  },
   "marandaneto/bug-project-watcher/issue/28": {
     "key": "marandaneto/bug-project-watcher/issue/28",
     "repo": "marandaneto/bug-project-watcher",
@@ -56,21 +71,6 @@
     ],
     "closed": false,
     "updatedAt": "2026-06-29T09:57:36.941Z"
-  },
-  "marandaneto/bug-project-watcher/issue/29": {
-    "key": "marandaneto/bug-project-watcher/issue/29",
-    "repo": "marandaneto/bug-project-watcher",
-    "item": "issue 29",
-    "url": "https://github.com/marandaneto/bug-project-watcher/issues/29",
-    "conclusion": "Valid bug report; current email validation accepts `person@example` despite tests expecting rejection.",
-    "labels": [
-      "bug",
-      "good-first-issue",
-      "posthog-watcher:fix-ready"
-    ],
-    "prUrl": "https://github.com/marandaneto/bug-project-watcher/pull/34",
-    "closed": false,
-    "updatedAt": "2026-06-23T18:13:56.101Z"
   },
   "marandaneto/bug-project-watcher/issue/22": {
     "key": "marandaneto/bug-project-watcher/issue/22",
