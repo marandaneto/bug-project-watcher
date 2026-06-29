@@ -22,7 +22,10 @@ test('cart total includes item quantities', () => {
     { name: 'Notebook', price: 2.5, quantity: 2 },
   ];
 
-  assert.equal(totalCart(items), 17);
+  const total = totalCart(items);
+
+  assert.notEqual(total, 5.5);
+  assert.equal(total, 17);
 });
 
 test('username normalization trims, lowercases, and collapses whitespace', () => {
