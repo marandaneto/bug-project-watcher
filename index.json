@@ -1,4 +1,19 @@
 {
+  "marandaneto/bug-project-watcher/issue/28": {
+    "key": "marandaneto/bug-project-watcher/issue/28",
+    "repo": "marandaneto/bug-project-watcher",
+    "item": "issue 28",
+    "url": "https://github.com/marandaneto/bug-project-watcher/issues/28",
+    "conclusion": "Confirmed bug: shipping truncates cents by flooring the calculated estimate.",
+    "labels": [
+      "bug",
+      "good-first-issue",
+      "posthog-watcher:fix-ready"
+    ],
+    "prUrl": "https://github.com/marandaneto/bug-project-watcher/pull/33",
+    "closed": false,
+    "updatedAt": "2026-06-29T10:01:58.202Z"
+  },
   "marandaneto/bug-project-watcher/issue/26": {
     "key": "marandaneto/bug-project-watcher/issue/26",
     "repo": "marandaneto/bug-project-watcher",
@@ -56,21 +71,6 @@
     "prUrl": "https://github.com/marandaneto/bug-project-watcher/pull/34",
     "closed": false,
     "updatedAt": "2026-06-23T18:13:56.101Z"
-  },
-  "marandaneto/bug-project-watcher/issue/28": {
-    "key": "marandaneto/bug-project-watcher/issue/28",
-    "repo": "marandaneto/bug-project-watcher",
-    "item": "issue 28",
-    "url": "https://github.com/marandaneto/bug-project-watcher/issues/28",
-    "conclusion": "Confirmed bug: shipping estimates are floored, dropping cents.",
-    "labels": [
-      "bug",
-      "good-first-issue",
-      "posthog-watcher:fix-ready"
-    ],
-    "prUrl": "https://github.com/marandaneto/bug-project-watcher/pull/33",
-    "closed": false,
-    "updatedAt": "2026-06-23T18:13:48.215Z"
   },
   "marandaneto/bug-project-watcher/issue/22": {
     "key": "marandaneto/bug-project-watcher/issue/22",
