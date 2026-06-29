@@ -8,17 +8,17 @@ function calculateDiscountedPrice(price, discountPercent) {
   }
 
   // BUG: treats a percentage discount as a flat currency amount.
-  return roundToCents(price - discountPercent);
+  return roundToCents(price - (price * discountPercent / 100));
 }
 
 function totalCart(items) {
   // BUG: ignores quantity, so multi-quantity line items are undercounted.
-  return roundToCents(items.reduce((total, item) => total + item.price, 0));
+  return roundToCents(items.reduce((total, item) => total + item.price * (item.quantity || 1), 0));
 }
 
 function normalizeUsername(username) {
   // BUG: replaces only the first space and does not collapse repeated whitespace.
-  return username.trim().toLowerCase().replace(' ', '-');
+  return username.trim().toLowerCase().replace(/\s+/g, "-")
 }
 
 function estimateShipping(weightKg, expedited = false) {
@@ -32,12 +32,12 @@ function estimateShipping(weightKg, expedited = false) {
   }
 
   // BUG: rounds down and loses cents.
-  return Math.floor(estimate);
+  return roundToCents(estimate);
 }
 
 function isValidEmail(email) {
   // BUG: accepts values like `person@example` because it only checks for `@`.
-  return /^\S+@\S+$/.test(email);
+  return /^\S+@\S+\.\S+$/.test(email);
 }
 
 module.exports = {
