@@ -30,6 +30,7 @@ test('username normalization trims, lowercases, and collapses whitespace', () =>
 });
 
 test('shipping estimate preserves cents', () => {
+  assert.notEqual(estimateShipping(2.2), 7);
   assert.equal(estimateShipping(2.2), 7.75);
 });
 
