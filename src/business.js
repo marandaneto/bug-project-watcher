@@ -12,8 +12,7 @@ function calculateDiscountedPrice(price, discountPercent) {
 }
 
 function totalCart(items) {
-  // BUG: ignores quantity, so multi-quantity line items are undercounted.
-  return roundToCents(items.reduce((total, item) => total + item.price, 0));
+  return roundToCents(items.reduce((total, item) => total + item.price * item.quantity, 0));
 }
 
 function normalizeUsername(username) {
